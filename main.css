@@ -3,28 +3,28 @@
     font-family: "Plus Jakarta Sans";
     font-weight: 400;
     src:url("./fonts/plus-jakarta-sans-v7-latin-regular.woff2") format("woff2"),
-        url("./fonts/plus-jakarta-sans-v7-latin-regular.woff") format("woff");
+    url("./fonts/plus-jakarta-sans-v7-latin-regular.woff") format("woff");
   }
   @font-face {
     font-display: swap;
     font-family: "Plus Jakarta Sans";
     font-weight: 500;
     src:url("./fonts/plus-jakarta-sans-v7-latin-500.woff2") format("woff2"),
-        url("./fonts/plus-jakarta-sans-v7-latin-500.woff") format("woff");
+    url("./fonts/plus-jakarta-sans-v7-latin-500.woff") format("woff");
   }
   @font-face {
     font-display: swap;
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     src:url("../fonts/plus-jakarta-sans-v7-latin-600.woff2") format("woff2"),
-        url("../fonts/plus-jakarta-sans-v7-latin-600.woff") format("woff");
+    url("../fonts/plus-jakarta-sans-v7-latin-600.woff") format("woff");
   }
   @font-face {
     font-display: swap;
     font-family: "Plus Jakarta Sans";
     font-weight: 700;
     src:url("../fonts/plus-jakarta-sans-v7-latin-700.woff2") format("woff2"),
-        url("../fonts/plus-jakarta-sans-v7-latin-700.woff") format("woff");
+    url("../fonts/plus-jakarta-sans-v7-latin-700.woff") format("woff");
   }
   * {
     box-sizing: border-box;
@@ -46,6 +46,9 @@
     /* visualy hidden */
   }
   /* header started  */
+  .hero {
+    margin-bottom: 500px;
+  }
   .site-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -115,11 +118,19 @@
     opacity: 0.6;
     border-radius: 6px;
   }
- .tablenumber {
-  padding-right: 0.1px;
-  text-transform: lowercase;
-}
+  .tablenumber {
+    padding-right: 0.1px;
+    text-transform: lowercase;
+  }
+  .tel__link {
+    color: #101010;
+    border: 2px solid #000;
+    padding: 6px;
+
+  }
   table {
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
     border-collapse: collapse;
     background-color: burlywood;

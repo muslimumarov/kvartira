@@ -33,13 +33,14 @@
     display: block;
   }
   body {
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0;
     font-family: "Plus Jakarta Sans", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 400;
   }
   .container {
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
     width: 780px;
@@ -128,6 +129,9 @@
     padding: 6px;
 
   }
+  .hero-wrapper {
+    margin-bottom: 100px;
+  }
   table {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -156,3 +160,17 @@
   .qizil {
     color: red;
   }
+
+  .box {
+    display: grid;
+    grid-template-columns: 50px 200px 200px 200px 200px;
+    grid-template-rows: repeat(12 auto);
+    gap: 2px;
+  }
+  .child {
+    font-size: 24px;
+    color: #070707;
+    background-color: bisque;
+    padding: 10px;
+  }
+  
